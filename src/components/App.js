@@ -4,7 +4,7 @@ import React,{useState} from "react";
 import ReactDOM from 'react-dom';
 
 const App = () => {
-    let [num,setNum]=useState(1);
+    let [num,setNum]=useState(0);
 
     function updateNum()
     {
@@ -16,7 +16,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
         <p>Button clicked {num} times</p>
-        <button onClick={updateNum}>Click Me</button>
+        <button onClick={updateNum}>Click me</button>
     </div>
   )
 }
